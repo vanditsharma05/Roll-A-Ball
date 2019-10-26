@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class rotator : MonoBehaviour {
 
-	// Update is called once per frame
+	// Update is called once per frame and Hacktober Fest
 	void Update () {
         transform.Rotate(new Vector3(15, 30, 45) * Time.deltaTime);
 	}
