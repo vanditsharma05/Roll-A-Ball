@@ -6,10 +6,12 @@ public class cameracontrol : MonoBehaviour {
 
     public GameObject player;
     private Vector3 offset;
+    private int z=9;	
     
     // Use this for initialization
 	void Start () {
         offset = transform.position-player.transform.position;
+		
 	}
 	
 	// Update is called once per frame
