@@ -16,7 +16,7 @@ public class playercontroller : MonoBehaviour {
         Count = 0;
         SetCountText();
         winText.text = "";
-
+        //Hacktober Fest
     }
 
     private void FixedUpdate()
